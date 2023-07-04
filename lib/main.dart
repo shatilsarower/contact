@@ -15,7 +15,7 @@ class ContactListApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Contact List',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: ContactListScreen(),
+      home: const ContactListScreen(),
     );
   }
 }
